@@ -1,0 +1,2 @@
+# phptestCodeigniter
+a codeigniter test
