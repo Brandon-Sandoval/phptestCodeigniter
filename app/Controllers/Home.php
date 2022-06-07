@@ -6,7 +6,10 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('welcome_message');
+        $dato = [
+            "titulo" => "Facultad autodidacta"
+        ];
+        return view('welcome_message',$dato);
     }
 
     public function test()
