@@ -24,7 +24,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/phptestCodeigniter/';
+    public $baseURL = 'https://codeigniterwebtest.herokuapp.com';
 
     /**
      * --------------------------------------------------------------------------
