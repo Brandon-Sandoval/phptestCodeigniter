@@ -1,0 +1,50 @@
+CRITICAL - 2022-06-07 19:47:09 --> Undefined variable $titular
+in APPPATH\Views\contacto\inicio.php on line 2.
+ 1 APPPATH\Views\contacto\inicio.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titular', 'APPPATH\\Views\\contacto\\inicio.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contacto\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contacto/inicio', [], true)
+ 5 APPPATH\Controllers\ContactoController.php(15): view('contacto/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\ContactoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactoController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-07 19:47:13 --> Undefined variable $titular
+in APPPATH\Views\contacto\inicio.php on line 2.
+ 1 APPPATH\Views\contacto\inicio.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titular', 'APPPATH\\Views\\contacto\\inicio.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contacto\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contacto/inicio', [], true)
+ 5 APPPATH\Controllers\ContactoController.php(15): view('contacto/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\ContactoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactoController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-07 19:47:33 --> Undefined variable $titular
+in APPPATH\Views\contacto\inicio.php on line 2.
+ 1 APPPATH\Views\contacto\inicio.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titular', 'APPPATH\\Views\\contacto\\inicio.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contacto\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contacto/inicio', [], true)
+ 5 APPPATH\Controllers\ContactoController.php(15): view('contacto/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\ContactoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactoController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-07 19:49:11 --> Undefined variable $titular
+in APPPATH\Views\contacto\inicio.php on line 2.
+ 1 APPPATH\Views\contacto\inicio.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $titular', 'APPPATH\\Views\\contacto\\inicio.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\contacto\\inicio.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('contacto/inicio', [], true)
+ 5 APPPATH\Controllers\ContactoController.php(15): view('contacto/inicio')
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\ContactoController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactoController))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-07 20:15:08 --> Too few arguments to function App\Controllers\ContactoController::catalogo(), 0 passed in C:\xampp\htdocs\phptestCodeigniter\system\CodeIgniter.php on line 898 and exactly 1 expected
+in APPPATH\Controllers\ContactoController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\ContactoController->catalogo()
+ 2 SYSTEMPATH\CodeIgniter.php(468): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactoController))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

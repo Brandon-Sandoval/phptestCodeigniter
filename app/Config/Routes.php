@@ -39,6 +39,9 @@ $routes->get('/', 'Home::index');
 //$routes->get('/test', 'Home::test');
 $routes->get('/contacto', 'ContactoController::index');
 $routes->get('/catalogo', 'ContactoController::catalogo');
+$routes->get('/formulario', 'Home::formulario');
+$routes->post('/envioPost', 'Home::enviarPost');
+$routes->get('/inicio', 'Home::inicio');
 
 /*
  * --------------------------------------------------------------------

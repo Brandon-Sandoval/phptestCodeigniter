@@ -6,13 +6,13 @@ class ContactoController extends BaseController
 {
     public function index()
     {
-        $dato = [
-            "titular" => "Hola Mundo Contacto"
+        $data = [
+            "titulo" => "Inicio"
         ];
 
-        $vistas = view('contacto/header').
+        $vistas = view('contacto/header',$data).
                   view('contacto/menu').
-                  view('contacto/inicio',$dato).
+                  view('contacto/inicio').
                   view('contacto/footer');
 
         echo $vistas;
@@ -20,7 +20,13 @@ class ContactoController extends BaseController
 
     public function catalogo()
     {
-        echo view('contacto/header');
+
+        $data = [
+            "titulo" => "catalogo"
+        ];
+        //$catalogo = ['numero' => $numeroCatalogo];
+
+        echo view('contacto/header',$data);
         echo view('contacto/menu');
         echo view('contacto/catalogo');
         echo view('contacto/footer');

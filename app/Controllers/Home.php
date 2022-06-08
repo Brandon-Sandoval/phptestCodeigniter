@@ -12,8 +12,22 @@ class Home extends BaseController
         return view('welcome_message',$dato);
     }
 
-    public function test()
+    public function inicio()
     {
-        return view('test');
+        return view('inicio');
+    }
+
+    public function formulario()
+    {
+        return view('formulario');
+    }
+
+    public function enviarPost()
+    {
+        $valor1 = $_POST['valor1'];
+        $valor2 = $_POST['valor2'];
+
+        $resultado = $valor1 + $valor2;
+        echo($resultado);
     }
 }
